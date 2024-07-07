@@ -1,0 +1,39 @@
+#spinner {
+	clip-path:                 circle(500px at 50%);
+	animation-duration:        5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode:       forwards;
+	transform:                 rotate(13deg);
+}
+
+.spin-a-bean {
+	animation-name: spin-a-bean;
+}
+
+@keyframes spin-a-bean {
+
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(var(--bean-rotation, 3612deg));
+	}
+
+}
+
+/*
+Spinner positions:
+
+Barf:				13
+Dirty Dishwater:	48
+Toothpaste:			84
+Dead Fish:			119
+Booger:				156
+Rotten Egg:			193
+Liver & Onions:		228
+Stink Bug:			265
+Pomgranate:			301
+Stinky Socks:		337
+
+ */
