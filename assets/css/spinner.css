@@ -1,42 +1,53 @@
 :root {
-	--bean-rotation: 3612deg;
+    --bean-rotation: 3612deg;
 }
+
 #spinner {
-	clip-path:                 circle(500px at 50%);
-	animation-duration:        5s;
-	animation-timing-function: ease-in-out;
-	animation-fill-mode:       forwards;
-	transform:                 rotate(13deg);
+    clip-path:                 circle(500px at 50%);
+    animation-duration:        5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode:       forwards;
+    transform:                 rotate(13deg);
+    position:                  absolute;
+    top:                       0;
+    left:                      0;
+}
+
+#overlay {
+    clip-path: circle(491px at 50%);
+    position:  absolute;
+    top:       0;
+    left:      0;
 }
 
 .spin-a-bean {
-	animation-name: spin-a-bean;
+    animation-name: spin-a-bean;
 }
 
 @keyframes spin-a-bean {
 
-	0% {
-		transform: rotate(0deg);
-	}
+    0% {
+        transform: rotate(0deg);
+    }
 
-	100% {
-		transform: rotate(var(--bean-rotation, 3612deg));
-	}
+    100% {
+        transform: rotate(var(--bean-rotation, 3612deg));
+    }
 
 }
 
 /*
 Spinner positions:
 
-Barf:				13
-Dirty Dishwater:	48
-Toothpaste:			84
+Barf:				11
+Dirty Dishwater:	47
+Toothpaste:			83
 Dead Fish:			119
-Booger:				156
-Rotten Egg:			193
-Liver & Onions:		228
-Stink Bug:			265
-Pomgranate:			301
-Stinky Socks:		337
+Booger:				155
+Rotten Egg:			191
+Liver & Onions:		227
+Stink Bug:			263
+Pomgranate:			299
+Stinky Socks:		335
 
  */

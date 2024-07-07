@@ -1,14 +1,14 @@
 let beans = [
-    {name: "Barf", rotation: 13},
-    {name: "Dirty Dishwater", rotation: 48},
-    {name: "Toothpaste", rotation: 84},
+    {name: "Barf", rotation: 11},
+    {name: "Dirty Dishwater", rotation: 47},
+    {name: "Toothpaste", rotation: 83},
     {name: "Dead Fish", rotation: 119},
-    {name: "Booger", rotation: 156},
-    {name: "Rotten Egg", rotation: 193},
-    {name: "Liver & Onions", rotation: 228},
-    {name: "Stink Bug", rotation: 265},
-    {name: "Pomgranate", rotation: 301},
-    {name: "Stinky Socks", rotation: 337}
+    {name: "Booger", rotation: 155},
+    {name: "Rotten Egg", rotation: 191},
+    {name: "Liver & Onions", rotation: 227},
+    {name: "Stink Bug", rotation: 263},
+    {name: "Pomgranate", rotation: 299},
+    {name: "Stinky Socks", rotation: 335}
 ];
 let spinner = document.getElementById('spinner');
 let selectedBeanId = Math.random() * beans.length;
