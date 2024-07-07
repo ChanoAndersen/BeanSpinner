@@ -1,3 +1,6 @@
+:root {
+	--bean-rotation: 3612deg;
+}
 #spinner {
 	clip-path:                 circle(500px at 50%);
 	animation-duration:        5s;
