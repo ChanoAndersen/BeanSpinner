@@ -14,14 +14,22 @@
 }
 
 #overlay {
-    clip-path: circle(491px at 50%);
-    position:  absolute;
-    top:       0;
-    left:      0;
+    clip-path:           circle(491px at 50%);
+    position:            absolute;
+    top:                 0;
+    left:                0;
+    animation-duration:  1500ms;
+    animation-fill-mode: forwards;
+    opacity:             0.8;
 }
 
 .spin-a-bean {
     animation-name: spin-a-bean;
+}
+
+.show-a-lay {
+    animation-delay: 4500ms;
+    animation-name:  show-a-lay;
 }
 
 @keyframes spin-a-bean {
@@ -34,6 +42,15 @@
         transform: rotate(var(--bean-rotation, 3612deg));
     }
 
+}
+
+@keyframes show-a-lay {
+    0% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 /*

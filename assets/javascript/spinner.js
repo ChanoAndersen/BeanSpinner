@@ -11,9 +11,11 @@ let beans = [
     {name: "Stinky Socks", rotation: 335}
 ];
 let spinner = document.getElementById('spinner');
+let overlay = document.getElementById('overlay');
 let selectedBeanId = Math.random() * beans.length;
 selectedBeanId = Math.floor(selectedBeanId);
 let selectedBean = beans[selectedBeanId];
 let targetRotation = 3600 + selectedBean.rotation;
 spinner.style.setProperty("--bean-rotation", targetRotation + 'deg');
+overlay.classList.add("show-a-lay");
 spinner.classList.add("spin-a-bean");
