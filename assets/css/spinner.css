@@ -9,12 +9,12 @@
     animation-fill-mode:       forwards;
     transform:                 rotate(13deg);
     position:                  absolute;
-    top:                       0;
+    top:                       2px;
     left:                      0;
 }
 
 #overlay {
-    clip-path:           circle(491px at 50%);
+    clip-path:           circle(493px at 50%);
     position:            absolute;
     top:                 0;
     left:                0;
