@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Bean list</title>
+	</head>
+	<body>
+		<table id="beanList">
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>Name</th>
+					<th>Rotation</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+		<p>You can ban a bean, by adding the banned_beans parameter to the URL. Use semicolon as a separator.</p>
+		<p>Out of bean 1? Add <b>banned_beans=1</b></p>
+		<p>Out of beans 2 and 4? Add <b>banned_beans=2;4</b></p>
+		<p>Banning all beans, will just pick a random bean after a short delay. Only 100 attempt to find an unbanned
+		   bean, will be made.</p>
+		<script src="assets/javascript/beans.js"></script>
+		<script src="assets/javascript/beanlist.js"></script>
+	</body>
+</html>
