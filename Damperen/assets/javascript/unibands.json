@@ -1,0 +1,30 @@
+{
+  "image": "/assets/images/UnicornHeadbandSpinner.png",
+  "overlay": "/assets/images/Overlay-72Degrees.png",
+  "items": [
+    {
+      "id": "1",
+      "name": "Red",
+      "rotation": 0
+    },
+    {
+      "id": "2",
+      "name": "Blue",
+      "rotation": 72
+    },
+    {
+      "id": "3",
+      "name": "Rose Gold",
+      "rotation": 144
+    },
+    {
+      "id": "4",
+      "name": "Gold",
+      "rotation": 216
+    },
+    {
+      "id": "5",
+      "name": "Rainbow",
+      "rotation": 288
+    }  ]
+}
