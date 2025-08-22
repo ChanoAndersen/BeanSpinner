@@ -11,7 +11,6 @@ function syncFetch(url) {
 	}
 }
 
-
 const imgSpinner   = document.getElementById('spinner');
 const imgOverlay   = document.getElementById('overlay');
 let itemFileBase   = window.location.hash ? window.location.hash : '#genres';

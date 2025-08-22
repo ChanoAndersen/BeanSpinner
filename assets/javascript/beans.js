@@ -1,4 +1,4 @@
-let beans = [
+let items = [
 	{id: "1", name: "Barf", rotation: 11},
 	{id: "2", name: "Liver & Onions", rotation: 47},
 	{id: "3", name: "Toothpaste", rotation: 83},
